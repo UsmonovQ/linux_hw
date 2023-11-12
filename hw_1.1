@@ -1,0 +1,32 @@
+0 pwd
+   1 mkdir home
+   2 mkdir -p home/animals
+   3 mkdir animals/dogs animals/cats animals/fish
+   4 touch home/animals/dogs/pluto home/animals/cats/garfield home/animals/fish
+   5 touch dogs/pluto
+   6 touch home/animals/dogs/pluto home/animals/cats/garfield home/animals/fish/
+nemo
+   7 tree home
+   8 mkdir -p home/planets
+   9 mkdir opt
+  10 touch opt/Mercury opt/Venus opt/Mars opt/Jupiter
+  11 mv opt/Mercury home/planets
+  12 mv opt/Venus home/planets
+  13 mv opt/Mars home/planets
+  14 mv opt/Jupiter home/planets
+  15 tree planets
+  16 tree home/planets
+  17 mkdir tmp
+  18 touch tmp/adam
+  19 mkdir -p home/humans
+  20 cp tmp/adam home/humans
+  21 ls home humans
+  22 ls home/humans
+  23 touch tmp/evA
+  24 mv tmp/evA opt/eva
+  25 mv opt/eva home/humans
+  26 tree humans
+  27 tree home/humans
+  28 history
+localhost:~# history > file_01.txt
+localhost:~# export history > file_01.txt
